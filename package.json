@@ -1,0 +1,28 @@
+{
+  "name": "tasktrackerfakedb",
+  "version": "1.0.0",
+  "description": "Fake DB Simulation for Angular Task Tracker Application. Hosting a JSON file for CRUD operations",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samratpodder/tasktrackerfakedb.git"
+  },
+  "keywords": [
+    "database"
+  ],
+  "author": "Samrat Podder",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samratpodder/tasktrackerfakedb/issues"
+  },
+  "homepage": "https://github.com/samratpodder/tasktrackerfakedb#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "json-server": "^0.17.0"
+  }
+}
